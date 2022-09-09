@@ -1,3 +1,4 @@
+<div class="container">
 <h1>Stupid Coaching</h1>
 
 <h2> <%= params[:user_input] %> </h2>
@@ -6,7 +7,8 @@
 <h2>Respuesta</h2>
 <h2> - <%= @coach_answer %> </h2>
 
-<%= link_to "Ask another question", ask_path %>
+<a class="btn btn-primary" href="#" role="button"<%= link_to "Ask another question", ask_path %> </a>
+</div>
 <!-- funciona como <a href="/ask">"Ask another question"</a> -->
 
 <!--
